@@ -25,6 +25,9 @@ Endpoints:
     Private-Port:      26379
     Public-Port-Name:  SENTINEL_PROXY_PORT
 Subscribes:
+  reset-password-info:
+    Type: "FILESYSTEM:reset-password"
+    Required: false
   set-redis-connection-info:
     Type: "ENV:NET_TCP:db:redis:connection-info-v1"
     Required: false
