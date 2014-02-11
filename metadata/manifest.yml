@@ -40,3 +40,4 @@ Publishes:
     Type: "ENV:NET_TCP:db:connection-info"
   publish-redis-connection-info:
     Type: "ENV:NET_TCP:db:redis:connection-info-v1"
+
