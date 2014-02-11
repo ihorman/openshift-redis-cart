@@ -28,6 +28,10 @@ Endpoints:
     Private-Port-Name: SENTINEL_PORT
     Private-Port:      26379
     Public-Port-Name:  SENTINEL_PROXY_PORT
+Cart-Data:
+  - Key: OPENSHIFT_REDIS_DB_PASSWORD
+    Type: environment
+    Description: "Redis database password"
 Subscribes:
   reset-password-info:
     Type: "FILESYSTEM:reset-password"
