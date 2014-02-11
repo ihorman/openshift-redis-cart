@@ -10,8 +10,10 @@ SED=$(which sed);
 #$J_OPENSHIFT_APP_ADM_PASSWORD    ;   Use this varible for your password
 
 function _setPassword() {
-    return 0;
+        echo $J_OPENSHIFT_APP_ADM_PASSWORD > ${CARTRIDGE_HOME}/env/REDIS_PASSWORD;
+        service cartridge restart > /dev/null 2>&1;
 }
+
 
 
 
