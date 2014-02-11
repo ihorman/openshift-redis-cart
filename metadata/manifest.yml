@@ -1,8 +1,10 @@
 Name: redis
 Cartridge-Short-Name: REDIS
 Display-Name: Redis
+Description: "Redis is a NoSQL database server"
 Version: "2.6"
 Website: https://github.com/smarterclayton/openshift-redis-cart
+Source-Url: https://github.com/ihorman/openshift-redis-cart.git
 Cartridge-Version: 0.1.0
 Cartridge-Vendor: smarterclayton
 Categories:
