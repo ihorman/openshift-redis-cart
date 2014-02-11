@@ -6,6 +6,8 @@ Version: "2.6"
 Website: https://github.com/smarterclayton/openshift-redis-cart
 Source-Url: https://github.com/ihorman/openshift-redis-cart.git
 Cartridge-Version: 0.1.0
+License: GPL
+Vendor: smarterclayton
 Cartridge-Vendor: smarterclayton
 Categories:
   - service
