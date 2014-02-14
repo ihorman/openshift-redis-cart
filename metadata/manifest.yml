@@ -1,4 +1,4 @@
-Name: redis
+Name: redisTest
 Cartridge-Short-Name: REDIS
 Display-Name: Redis
 Description: "Redis is a NoSQL database server"
